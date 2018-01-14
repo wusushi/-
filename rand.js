@@ -5,13 +5,13 @@ function Random() {
 	var text = "123";
 	switch (x) {
 		case 0:
-		   text = "問" + name(Name) + "ㄚ~";
+		   text = "問" + name(Name) + "ㄚ";
 		   break;
 		case 1:
-		   text = "吃" + shop(Shop) + "啦~";
+		   text = "吃" + shop(Shop) + "啦";
 		   break;
 		default:
-		   text = "吃學餐囉，呵呵~";
+		   text = "吃學餐囉，呵呵";
 		   break;
 	}
     document.getElementById("demo").innerHTML = text;
